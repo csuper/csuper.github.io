@@ -2,5 +2,3 @@ name: Hank Quinlan
 markdown: kramdown
 theme: jekyll-theme-minimal
 permalink: /blog/:year/:month/:day/:title
-=======
-theme: jekyll-theme-cayman
