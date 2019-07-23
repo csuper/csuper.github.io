@@ -30,6 +30,19 @@ function initMap() {
       icon: 'https://csuper.us/assets/img/tree.png'
     });
 
+  var infowindow = new google.maps.InfoWindow();
+
+  // When the user clicks, open an infowindow
+map.data.addListener('click', function(event) {
+	var myHTML = event.feature.getProperty("description");
+	infowindow.setContent("<div style='width:150px;'>"+myHTML+"</div>");
+	// position the infowindow on the marker
+	infowindow.setPosition(event.feature.getGeometry().get());
+	// anchor the infowindow on the marker
+	infowindow.setOptions({pixelOffset: new google.maps.Size(0,-30)});
+	infowindow.open(map);
+});
+
 }
 </script>
 
