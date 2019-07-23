@@ -1,6 +1,8 @@
+<!--
 ---
 layout: default
 ---
+-->
 
 <style>
   #map {
