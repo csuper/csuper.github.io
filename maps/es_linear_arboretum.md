@@ -14,16 +14,16 @@ layout: default
 
 <div id="map"></div>
 <script>
-
+var map;
 function initMap() {
-  var options = {
+  map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
-    center:{lat:36.4026,lng:-93.7360}
-  }  
+    center: {lat:36.4026,lng:-93.7360}
+  });
 
-  var map = new google.maps.Map(document.getElementById('map'), options);
-
-
+  // NOTE: This uses cross-domain XHR, and may not work on older browsers.
+  map.data.loadGeoJson(
+      'https://csuper.us/maps/ES_LA_SS.geojson');
 }
 </script>
 
