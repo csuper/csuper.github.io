@@ -34,7 +34,7 @@ function initMap() {
 
   // When the user clicks, open an infowindow
 map.data.addListener('click', function(event) {
-	var myHTML = event.feature.getProperty("description");
+	var myHTML = event.feature.getProperty("SPECIES_01");
 	infowindow.setContent("<div style='width:150px;'>"+myHTML+"</div>");
 	// position the infowindow on the marker
 	infowindow.setPosition(event.feature.getGeometry().get());
