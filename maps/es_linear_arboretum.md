@@ -23,7 +23,14 @@ function initMap() {
 
   // NOTE: This uses cross-domain XHR, and may not work on older browsers.
   map.data.loadGeoJson(
-      'https://csuper.us/maps/ES_LA_SS.geojson');
+      'https://csuper.us/maps/ES_LA_Full.geojson');
+
+  // Set the stroke width, and fill color for each polygon
+  map.data.setStyle({
+      fillColor: 'green',
+      strokeWeight: 1
+    });
+
 }
 </script>
 
