@@ -27,8 +27,7 @@ function initMap() {
 
   // Set the stroke width, and fill color for each polygon
   map.data.setStyle({
-      fillColor: 'green',
-      strokeWeight: 1
+      icon: 'https://csuper.us/assets/img/tree.png'
     });
 
 }
