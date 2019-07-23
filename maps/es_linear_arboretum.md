@@ -1,8 +1,3 @@
-<!--
----
-layout: default
----
--->
 
 <style>
   #map {
