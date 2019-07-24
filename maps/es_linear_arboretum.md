@@ -34,7 +34,12 @@ function initMap() {
 
   // When the user clicks, open an infowindow
 map.data.addListener('click', function(event) {
-	var myHTML = event.feature.getProperty("SPECIES_01" + "SPECIES_LA" + "HEIGHT_RAN" + "TREE_COMME" + "ADDRESS_NU");
+	var commonName = event.feature.getProperty("SPECIES_01");
+  var scienceName = event.feature.getProperty("SPECIES_LA");
+  var heightRange = event.feature.getProperty("HEIGHT_RAN");
+  var comment = event.feature.getProperty("TREE_COMME");
+  var address = event.feature.getProperty("ADDRESS_NU");
+  var myHTML = ('commonName' + 'scienceName' + 'heightRange' + 'comment' + 'address');
 	infowindow.setContent("<div style='width:150px;'>"+myHTML+"</div>");
 	// position the infowindow on the marker
 	infowindow.setPosition(event.feature.getGeometry().get());
