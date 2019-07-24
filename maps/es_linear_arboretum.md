@@ -1,3 +1,6 @@
+---
+layout: map
+---
 
 <style>
   #map {
