@@ -39,7 +39,7 @@ map.data.addListener('click', function(event) {
   var heightRange = event.feature.getProperty("HEIGHT_RAN");
   var comment = event.feature.getProperty("TREE_COMME");
   var address = event.feature.getProperty("ADDRESS_NU");
-  var myHTML = ('Common' + commonName + 'Scientific' + scienceName + heightRange + comment + address);
+  var myHTML = ('Common:' + commonName <br> 'Scientific:' + scienceName <br> heightRange + comment + address);
 	infowindow.setContent("<div style='width:150px;'>"+myHTML+"</div>");
 	// position the infowindow on the marker
 	infowindow.setPosition(event.feature.getGeometry().get());
