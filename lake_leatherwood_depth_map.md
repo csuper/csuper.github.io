@@ -2,10 +2,8 @@
 layout: default
 ---
 
-# When was Eureka Springs built?
+# Lake Leatherwood Depth Map
 
-Inspired by this <a href="https://www.waldrn.com/indy-building-age-map/">project</a>.
+Inspired by these <a href="https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/absurd-paper-maps-in-pro/">absurd</a> paper map <a href="https://adventuresinmapping.com/2017/12/12/papercut-lake-map/">projects</a> and using the same image textures.
 
-This map was made by merging <a href="http://gis.arkansas.gov/product/parcel-polygon-county-assessor-mapping-program-polygon/">Carroll County</a> tax parcel polygons with data from the City of Eureka Springs Historic District Commission.
-
-<a href="https://csuper.us/assets/img/WhenWasESBuilt_FINAL.png"><img src="https://csuper.us/assets/img/WhenWasESBuilt_FINAL.png" alt="When was Eureka Springs Built" /></a>
+<a href="https://csuper.us/assets/img/LLDepthMapFINALSm.png"><img src="https://csuper.us/assets/img/LLDepthMapFINALSm.png" alt="Lake Leatherwood Depth Map" /></a>
