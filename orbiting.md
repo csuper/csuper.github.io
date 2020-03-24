@@ -4,7 +4,7 @@ layout: default
 
 # Orbiting
 
-![Cycling Adventure Race Searcy Arkansas Christian Super Photography](cycling-adventure-race-searcy-arkansas-ozarks-csuper.jpg "Cycling Adventure Race Searcy Arkansas Christian Super Photography")
+![Cycling Adventure Race Searcy Arkansas Christian Super Photography](/assets/img/cycling-adventure-race-searcy-arkansas-ozarks-csuper.jpg "Cycling Adventure Race Searcy Arkansas Christian Super Photography")
 
 Another on-going project.  These images are made with a children’s camera while cycling in unfavorable conditions. The painterly effect comes from a lens that is often obscured by sweat, temperature changes, precipitation, or grease.
 
