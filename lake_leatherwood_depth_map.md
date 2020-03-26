@@ -4,6 +4,6 @@ layout: default
 
 # Lake Leatherwood Depth Map
 
-Inspired by these <a href="https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/absurd-paper-maps-in-pro/">absurd</a> paper map <a href="https://adventuresinmapping.com/2017/12/12/papercut-lake-map/">projects</a> and using the same image textures, I've updated the undated <a href="http://eurekaparks.com/wp-content/uploads/2018/03/Leatherwood-Depth-map-1.pdf">Lake Leatherwood Bathymetry Map</a>.
+Inspired by these [absurd](https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/absurd-paper-maps-in-pro/) paper map [projects](https://adventuresinmapping.com/2017/12/12/papercut-lake-map/) and using the same image textures, I've updated the undated [Lake Leatherwood Bathymetry Map](http://eurekaparks.com/wp-content/uploads/2018/03/Leatherwood-Depth-map-1.pdf).
 
-<a href="https://csuper.us/assets/img/LLDepthMapFINALSm.png"><img src="https://csuper.us/assets/img/LLDepthMapFINALSm.png" alt="Lake Leatherwood Depth Map" /></a>
+[![Lake Leatherwood City Park Bathymetry Depth Eureka Springs Arkansas Built Christian Super Maps](/assets/img/LLDepthMapFINALSm.png)](https://csuper.us/assets/img/LLDepthMapFINALSm.png)
