@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 # When was Eureka Springs built?

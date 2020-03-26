@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 # The one road with nine names in Eureka Springs.
