@@ -3,5 +3,5 @@ logo: /assets/img/logo.png
 description:
 show_downloads: true
 google_analytics:
-theme: minimal
+theme: jekyll-theme-minimal
 paginate: 1
