@@ -4,3 +4,4 @@ description: cycling, photography, and maps
 show_downloads: true
 google_analytics:
 theme: minimal
+paginate: 1
