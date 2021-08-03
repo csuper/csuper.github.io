@@ -5,3 +5,5 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 paginate: 1
+plugins:
+  - jekyll-paginate
