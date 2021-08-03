@@ -51,7 +51,3 @@ map.data.addListener('click', function(event) {
 }
 </script>
 
-
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDa6DZeRE5sjojvDXT-Rh4npQgfci2XTQ8&callback=initMap">
-</script>
