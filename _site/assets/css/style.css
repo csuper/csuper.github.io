@@ -168,9 +168,9 @@ th { color: #444; }
 
 img { max-width: 100%; }
 
-header { width: 270px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
+header { width: 200px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
 
-ul.downloads { list-style: none; height: 40px; padding: 0; background: #f4f4f4; border-radius: 5px; border: 1px solid #e0e0e0; width: 270px; }
+ul.downloads { list-style: none; height: 40px; padding: 0; background: #f4f4f4; border-radius: 5px; border: 1px solid #e0e0e0; width: 200px; }
 
 .downloads li { width: 89px; float: left; border-right: 1px solid #e0e0e0; height: 40px; }
 
@@ -190,7 +190,7 @@ strong { color: #222; font-weight: 700; }
 
 .downloads a strong { font-size: 14px; display: block; color: #222; }
 
-section { width: 500px; float: right; padding-bottom: 50px; }
+section { width: 600px; float: right; padding-bottom: 50px; }
 
 mapsection { width: 860px; float: right; padding-bottom: 50px; }
 
@@ -198,7 +198,7 @@ small { font-size: 11px; }
 
 hr { border: 0; background: #e5e5e5; height: 1px; margin: 0 0 20px; }
 
-footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-smoothing: subpixel-antialiased; }
+footer { width: 200px; float: left; position: fixed; bottom: 50px; -webkit-font-smoothing: subpixel-antialiased; }
 
 @media print, screen and (max-width: 960px) { div.wrapper { width: auto; margin: 0; }
   header, section, footer { float: none; position: static; width: auto; }
