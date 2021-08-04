@@ -19,9 +19,9 @@
       <div class="inner">
 
         <header>
-          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-          <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+          <p><h1><a href="{{ "/" | absolute_url }}"><img src="/assets/img/sfd_logo_30.png" alt="logo" title="logo" /></a></p>
         </header>
+        <!--
         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
           <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>
@@ -35,9 +35,39 @@
 	  {% endif %}
 	{% endif %}
         </section>
+        -->
         <hr>
         <section id="main_content">
+          <!--
           {{ content }}
+          -->
+      <!-- Pagination links -->
+          <div class="pagination">
+            {% if paginator.previous_page %}
+              <a href="{{ paginator.previous_page_path }}" class="previous">
+                Previous
+              </a>
+            {% else %}
+              <span class="previous">Previous</span>
+            {% endif %}
+            <span class="page_number ">
+              Page: {{ paginator.page }} of {{ paginator.total_pages }}
+            </span>
+            {% if paginator.next_page %}
+              <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+            {% else %}
+              <span class="next ">Next</span>
+            {% endif %}
+          </div>
+
+          {% for post in paginator.posts %}
+
+          <div class="content">
+            {{ post.content }}
+          </div>
+          
+        {% endfor %}
+
         </section>
 
         <footer>
