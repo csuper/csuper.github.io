@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <p><h1><a href="{{ "/" | absolute_url }}"><img src="/assets/img/sfd_logo_30.png" alt="logo" title="logo" /></a></p>
+      </header>
+      <section>
+      <!-- This loops through the paginated posts -->
+      {% for post in paginator.posts %}
+
+        <div class="content">
+          {{ post.content }}
+        </div>
+        
+      {% endfor %}
+
+      <!-- Pagination links -->
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class="previous">
+            Previous
+          </a>
+        {% else %}
+          <span class="previous">Previous</span>
+        {% endif %}
+        <span class="page_number ">
+          Page: {{ paginator.page }} of {{ paginator.total_pages }}
+        </span>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        {% else %}
+          <span class="next ">Next</span>
+        {% endif %}
+      </div>
+      </section>
+      <footer>
+        {% if site.github.is_project_page %}
+        <p><small>Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small></p>
+        {% endif %}
+        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p></p><small>Hosted on GitHub Pages</small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
