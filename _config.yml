@@ -3,7 +3,8 @@ logo: /assets/img/logo.png
 description:
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 paginate: 1
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
